@@ -1,4 +1,3 @@
-import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import RentSpace from './components/RentSpace';
 import Services from './components/Services';
