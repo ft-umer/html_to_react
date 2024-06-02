@@ -43,7 +43,7 @@ const MainContent = () => {
                       Start time
                     </option>
                     {[...Array(24).keys()].map(hour => (
-                      <option key={hour} value={`${hour.toString().padStart(2, '0')}:00:00">
+                      <option key={hour} value={`${hour.toString().padStart(2, '0')}:00:00`}>
                         {hour.toString().padStart(2, '0')}:00
                       </option>
                     ))}
@@ -53,7 +53,7 @@ const MainContent = () => {
                       End time
                     </option>
                     {[...Array(24).keys()].map(hour => (
-                      <option key={hour} value={`${hour.toString().padStart(2, '0')}:00:00">
+                      <option key={hour} value={`${hour.toString().padStart(2, '0')}:00:00`}>
                         {hour.toString().padStart(2, '0')}:00
                       </option>
                     ))}
@@ -98,7 +98,7 @@ const MainContent = () => {
               <p className="mt-5 mb-3">
                 <a href="#" className="mb-sm-0 mb-3">
                   <img
-                    src=/google-play.png"
+                    src="/google-play.png"
                     alt="Download-button"
                     height="50"
                   />
