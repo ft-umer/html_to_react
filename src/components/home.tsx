@@ -43,7 +43,7 @@ const MainContent = () => {
                       Start time
                     </option>
                     {[...Array(24).keys()].map(hour => (
-                      <option key={hour} value={`${hour.toString().padStart(2, '0')}:00:00`}>
+                      <option key={hour} value={`${hour.toString().padStart(2, '0')}:00:00">
                         {hour.toString().padStart(2, '0')}:00
                       </option>
                     ))}
@@ -53,7 +53,7 @@ const MainContent = () => {
                       End time
                     </option>
                     {[...Array(24).keys()].map(hour => (
-                      <option key={hour} value={`${hour.toString().padStart(2, '0')}:00:00`}>
+                      <option key={hour} value={`${hour.toString().padStart(2, '0')}:00:00">
                         {hour.toString().padStart(2, '0')}:00
                       </option>
                     ))}
@@ -84,7 +84,7 @@ const MainContent = () => {
               </p>
             </div>
             <div className="col-md-6 ps-md-5">
-              <img src={`${process.env.PUBLIC_URL}/mobile-phones-car.png`} alt="" className="img-fluid" />
+              <img src="/mobile-phones-car.png" alt="" className="img-fluid" />
             </div>
           </div>
         </div>
@@ -98,7 +98,7 @@ const MainContent = () => {
               <p className="mt-5 mb-3">
                 <a href="#" className="mb-sm-0 mb-3">
                   <img
-                    src={`${process.env.PUBLIC_URL}/google-play.png`}
+                    src=/google-play.png"
                     alt="Download-button"
                     height="50"
                   />
@@ -106,7 +106,7 @@ const MainContent = () => {
               </p>
             </div>
             <div className="col-md-6 ps-md-5">
-              <img src={`${process.env.PUBLIC_URL}/10707500_44731.png`} alt="" className="img-fluid" />
+              <img src="/10707500_44731.png" alt="" className="img-fluid" />
             </div>
           </div>
         </div>
