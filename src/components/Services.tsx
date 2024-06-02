@@ -42,7 +42,7 @@ const Services = () => {
                         </div>
                     </div>
                     <div className="col-md-6 col-sm-12 mb-md-0 mb-4 px-5">
-                        <img src="public/service-img.png" alt="Service" className="img-fluid" />
+                        <img src={`${process.env.PUBLIC_URL}/service-img.png`} alt="Service" className="img-fluid" />
                     </div>
                 </div>
                 <div className="mt-5">

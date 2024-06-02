@@ -7,7 +7,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <div className="container">
           <Link className="navbar-brand" to="/">
-            <img src="public/logo-black.png" alt="Logo" height="50" />
+            <img src={`${process.env.PUBLIC_URL}/logo-black.png`} alt="Logo" height="50" />
           </Link>
           <button
             className="navbar-toggler"

@@ -24,7 +24,7 @@ ul{
     font-size: 14px;
 }
 .banner{
-    background: linear-gradient(#00000056,#00000056), url(public/banner-2.png);
+    background: linear-gradient(#00000056,#00000056), url({`${process.env.PUBLIC_URL}/banner-2.png`});
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -45,7 +45,7 @@ ul{
 }
 
 .hero{
-    background: linear-gradient(#00000056,#00000056), url(public/hero.png);
+    background: linear-gradient(#00000056,#00000056), url(/hero.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

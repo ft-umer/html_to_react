@@ -7,7 +7,7 @@ const Profile = () => {
                 
                 <div className="row py-4 align-items-center">
                     <div className="col-md-4 text-md-start text-center">
-                        <img src="public/user.jpeg" alt="" className="img-fluid profile-img" />
+                        <img src={`${process.env.PUBLIC_URL}/user.jpeg`} alt="" className="img-fluid profile-img" />
                     </div>
                     <div className="col-md-8">
                         <div className="d-flex justify-content-between pb-4 border-bottom">

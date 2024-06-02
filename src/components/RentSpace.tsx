@@ -4,7 +4,7 @@ const RentSpace = () => {
         <section>
             <div className="row mx-0">
                 <div className="col-md-6 col-sm-12 mb-md-0 mb-4 px-0 d-md-block d-none">
-                    <img src="public/rent-space.png" alt="Rent Out" className="img-fluid" />
+                    <img src={`${process.env.PUBLIC_URL}/rent-space.png`} alt="Rent Out" className="img-fluid" />
                 </div>
                 <div className="col-md-6 col-12">
                     <form action="" method="post" className="px-5 py-5">
