@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 
 const SignUp = () => {
@@ -76,8 +76,8 @@ const SignUp = () => {
                                         {loader ? <button className="btn btn-dark w-100">Loading...</button>:<button className="btn btn-dark w-100" type="submit">Signup</button>}
                                     </div>
                                     <div className="py-3 text-center">
-                                        <p className="m-0">Already have an account? <a href="/login"
-                                            className="text-decoration-underline">Login</a></p>
+                                        <p className="m-0">Already have an account? <Link to="/login"
+                                            className="text-decoration-underline">Login</Link></p>
                                     </div>
                                 </form>
                             </div>
