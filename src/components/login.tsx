@@ -35,8 +35,8 @@ const Login = () => {
             localStorage.setItem('token', data.token);
             navigate('/'); // Redirect to dashboard or another page
         } else {
+            setLoader(false)
             toast.error(data.message);
-            console.log(data.message);
         }
     }
 
