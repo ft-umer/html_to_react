@@ -1,7 +1,11 @@
-// ProtectedRoute.js
 import { Navigate } from 'react-router-dom';
+import React from 'react';
 
-const ProtectedRoute = ({ element: Component, ...rest }) => {
+interface ProtectedRouteProps {
+  element: React.ComponentType<any>; // Explicitly define the type of 'element' prop
+}
+
+const ProtectedRoute: React.FC<ProtectedRouteProps> = ({ element: Component, ...rest }) => {
   const token = localStorage.getItem('token');
   const isAuthenticated = !!token;
 
